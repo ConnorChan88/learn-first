@@ -10,7 +10,7 @@ public class Ch_1 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("请输入金字塔层数:");
 		n = input.nextInt();
-		for (i = 1; i < n; i++) {
+		for (i = 1; i <=n; i++) {
 			for (j=1; j<=n-i;j++) {
 				System.out.print(" ");
 			}				
